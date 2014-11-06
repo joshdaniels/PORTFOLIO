@@ -352,6 +352,7 @@ h2.resp-accordion:first-child {
     .widget-profil #profile_desc{
         border-top: 0 !important;
         border-bottom: 0 !important;
+        border-radius: 8px;
     }
 
 }
@@ -584,10 +585,12 @@ h2.resp-accordion:hover {
    overflow: hidden;
    top: 0;
    left: 0;
+   border-radius: 8px;
 }
 #portfolio .view img {
    display: block;
    position: relative;
+   border-radius: 8px;
 }
 #portfolio .view h2 {
     text-transform: uppercase;
@@ -643,6 +646,7 @@ h2.resp-accordion:hover {
    transition: all 0.4s ease-in-out;
 	width: 100%;
 	height: 100%;
+  border-radius: 8px;
 }
 #portfolio .view-first h2 {
    -webkit-transform: translateY(-100px);
@@ -680,6 +684,7 @@ h2.resp-accordion:hover {
    -o-transform: scale(1.1,1.1);
    -ms-transform: scale(1.1,1.1);
    transform: scale(1.1,1.1);
+   border-radius: 8px;
 }
 #portfolio .view-first a.info {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -737,7 +742,7 @@ h2.resp-accordion:hover {
     margin:1%;
     padding:0;
     list-style:none;
-    display: inline-block;
+    display: none;
 
 }
 
@@ -1077,6 +1082,7 @@ ul.about {
 .widget-profil{
     height: 580px;
     float: right;
+    border-radius: 8px;
 }
 .widget-profil .circle {
     display: block;
